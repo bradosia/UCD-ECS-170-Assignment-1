@@ -3,6 +3,9 @@
 # tilepuzzle.py
 # > tilepuzzle([[2,8,3],[1,0,4],[7,6,5]],[[1,2,3],[8,0,4],[7,6,5]])
 # Example takes a few seconds to complete
+# and returns a solution with 17649 moves.
+# the assignment instructions said return the first solution so I have done that
+# because of the long solution, it is written to a file or console crashes
 
 def tilepuzzle(start,goal):
     if not checkValidBoard(start,goal):
